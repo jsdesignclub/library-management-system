@@ -30,7 +30,7 @@ body{
 }
 .navbar Ul li a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: azure;
     transition: 2s;
     font-weight: 300;
