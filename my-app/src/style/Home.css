@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.herro{
+    margin-top: 0px;
+    background-color: rgb(214, 147, 64);
+    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url(../image/brazilian-young-woman-reading-books.jpg);
+    height: 600px;
+    background-position: right;
+    background-repeat: repeat;
+   background-size: cover;
+   position: relative;
+   padding-left: 50px;
+   padding-top: 100px;
+   z-index: 1;
+}
+.herro h1{
+   
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.herro p{
+   
+    width: 400px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 100;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 16px;
+    transition: 2s;
+}
+button:hover{
+    background-color: rgb(95, 14, 14);
+    cursor: pointer;
+}
