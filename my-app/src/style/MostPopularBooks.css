@@ -12,7 +12,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+.MostPopularBooks button{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #ED3A3A;
+    font-weight: bold;
+}
 .MostPopularBooks img{
     width: 80%;
 }

@@ -6,6 +6,7 @@ import {
     Link,
     Routes
   } from "react-router-dom";
+import Bannersection from "../component/bannersection";
 import Chatagory from "../component/chatagory";
 import Herro from "../component/herro";
 import MostPopularBooks from "../component/mostPopularBooks";
@@ -16,6 +17,7 @@ function Home(){
       <Herro />
      <Chatagory />
      <MostPopularBooks/>
+     <Bannersection/>
         </div>
     
      

@@ -6,6 +6,7 @@ function MostPopularBooks() {
     <div className='MostPopularBooks'>
        <span>Most Popular Books</span>
        <img src={book2} alt="bookimage" />
+       <button>More books</button>
     </div>
   )
 }
