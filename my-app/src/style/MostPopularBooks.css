@@ -1,0 +1,18 @@
+.MostPopularBooks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.MostPopularBooks span{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.MostPopularBooks img{
+    width: 80%;
+}

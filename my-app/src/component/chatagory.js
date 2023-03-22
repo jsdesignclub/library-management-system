@@ -11,7 +11,7 @@ function Chatagory() {
         <div className='box'>
         <img src={Book} alt="Logo" />
         <span>Book</span>
-        <h1>I am Jayasena</h1>
+        
         </div>
         <div className='box'>
         <img src={audio} alt="Logo" />
