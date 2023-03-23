@@ -15,7 +15,7 @@ search, and purchase books directly from our database. Start exploring today
 <button>Register and get your IP</button>
 
 
-    </div>
+</div>
   )
 }
 

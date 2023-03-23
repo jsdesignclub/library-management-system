@@ -8,8 +8,11 @@ import {
   } from "react-router-dom";
 import Bannersection from "../component/bannersection";
 import Chatagory from "../component/chatagory";
+import Footer from "../component/footer";
 import Herro from "../component/herro";
 import MostPopularBooks from "../component/mostPopularBooks";
+import OurAudioBooks from "../component/ourAudioBooks";
+import OurVideoBooks from "../component/ourVideoBooks";
 import "../style/Home.css";
 function Home(){
     return(
@@ -18,6 +21,9 @@ function Home(){
      <Chatagory />
      <MostPopularBooks/>
      <Bannersection/>
+     <OurAudioBooks/>
+     <OurVideoBooks/>
+     <Footer/>
         </div>
     
      
