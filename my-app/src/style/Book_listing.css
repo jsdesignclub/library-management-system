@@ -1,0 +1,19 @@
+.booklisting p{
+    color: black;
+}
+
+.booklisting ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.booklisting li{
+    width: 200px;
+    border:solid 1px black;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}

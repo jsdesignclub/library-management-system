@@ -3,6 +3,7 @@ import MostPopularBooks from '../component/mostPopularBooks'
 import '../style/book.css'
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import Book_listing from '../component/book_listing';
 
 
 function Book() {
@@ -17,7 +18,7 @@ function Book() {
       </div>
 
       <div className='bookstore'>
-
+        <Book_listing/>
 
       </div>
 
