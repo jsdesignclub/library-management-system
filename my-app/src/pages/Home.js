@@ -23,7 +23,7 @@ function Home(){
      <Bannersection/>
      <OurAudioBooks/>
      <OurVideoBooks/>
-     <Footer/>
+
         </div>
     
      

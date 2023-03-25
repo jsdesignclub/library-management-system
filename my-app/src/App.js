@@ -15,12 +15,13 @@ import Navbar from './component/navbar';
 import Vedio from './pages/vidio';
 import Quizz from './pages/quizz';
 import Audio from './pages/audio';
+import Footer from './component/footer';
 function App() {
   return (
-  
+     
     <Router> 
       <Navbar/>
-    
+      
       <Routes>
         
       <Route path='/' exact element={<Home/>} />
@@ -30,6 +31,9 @@ function App() {
       <Route path='/quizz'  element={<Quizz/>} />
       <Route path='/Contact'  element={<Contact/>} />
       </Routes>
+
+      <Footer/>
+
     </Router>
 
         

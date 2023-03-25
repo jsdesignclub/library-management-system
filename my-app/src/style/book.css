@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bookpage{
+    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 43.69%, rgba(2, 0, 0, 0) 93.75%), url('../image/Student.png');
+    height: 400px;
+   
+    background-size: cover;
+    margin-top: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px 50px 100px;
+   
+    
+}
+span:nth-of-type(1){
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+}
+span:nth-of-type(2){
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+span:nth-of-type(3){
+    font-size: 70px;
+    color: #ED3A3A;
+    font-weight: bold;
+}
+.bookstore{
+    height: 500px;
+}
