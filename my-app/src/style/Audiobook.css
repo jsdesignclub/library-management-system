@@ -1,0 +1,43 @@
+.audioBooks{
+    display: flex;
+}
+
+.audio_hed{
+    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 43.69%, rgba(2, 0, 0, 0) 93.75%), url('../image/audiobook.jpg');
+    height: 500px;
+    background-size: cover;
+    margin-top: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px 50px 100px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: baseline;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.tilte h1{
+    font-size: 40px;
+    color: aliceblue;
+    line-height: 5px;
+} 
+h1:nth-of-type(1){
+    font-size:40px;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: normal;
+}
+h1:nth-of-type(2){
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+h1:nth-of-type(3){
+    font-size: 70px;
+    color: #ED3A3A;
+    font-weight: bold;
+}

@@ -9,7 +9,9 @@
     align-items: center;
    
 }
-
+.box{
+    font-size: 20px;
+}
 
 .box:nth-of-type(1){
     display: flex;
@@ -31,9 +33,8 @@
     background-color: rgb(208, 214, 123);
     justify-content: center;
     height: 200px;
-   
     align-items: center;
-    font-size: 30px;
+   
     line-height: 50px;
 
 }
@@ -46,7 +47,7 @@
     height: 200px;
    
     align-items: center;
-    font-size: 30px;
+   
     line-height: 50px;
 
 }
@@ -59,11 +60,15 @@
     height: 200px;
    
     align-items: center;
-    font-size: 30px;
+   
     line-height: 50px;
 
 }
 .box img{
    
    height: 70px;
+}
+
+.box p{
+    font-size: 30px;
 }

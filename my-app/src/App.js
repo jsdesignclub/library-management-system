@@ -16,6 +16,7 @@ import Vedio from './pages/vidio';
 import Quizz from './pages/quizz';
 import Audio from './pages/audio';
 import Footer from './component/footer';
+import Viewitem from './component/viewitem';
 function App() {
   return (
      
@@ -30,6 +31,7 @@ function App() {
       <Route path='/audio'  element={<Audio/>} />
       <Route path='/quizz'  element={<Quizz/>} />
       <Route path='/Contact'  element={<Contact/>} />
+      <Route path='/view'  element={<Viewitem/>} />
       </Routes>
 
       <Footer/>

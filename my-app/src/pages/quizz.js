@@ -1,9 +1,10 @@
 import React from "react";
+import Quizzbooks from "../component/quizzbooks";
 
 function Quizz(){
     return(
 
-<h1>This is video book page</h1>
+       <Quizzbooks/>
 
     )
     

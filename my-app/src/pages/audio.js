@@ -1,8 +1,9 @@
 import React from "react";
+import AudioBook from "../component/audioBook";
 
 function Audio(){
     return(
-        <h1></h1>
+        <AudioBook/>
     )
 }
 export default Audio;

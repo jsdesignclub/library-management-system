@@ -1,0 +1,20 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.leftside{
+    width: 50%;
+    padding: 50px;
+}
+.leftside img{
+    width: 80%;
+}
+.rightside{
+    width: 50%;
+    padding: 100px 20PX 20PX 20PX;
+}
+
+.rightside span {
+    color: black;
+    font-size: 20px;
+}

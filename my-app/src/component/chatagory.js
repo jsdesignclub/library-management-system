@@ -10,20 +10,20 @@ function Chatagory() {
       <div className='chatagory'>
         <div className='box'>
         <img src={Book} alt="Logo" />
-        <span>Book</span>
+        <p>Book</p>
         
         </div>
         <div className='box'>
         <img src={audio} alt="Logo" />
-        <span>Audio Book</span>
+        <p>Audio Book</p>
         </div>
         <div className='box'>
         <img src={video} alt="Logo" />
-        <span>Video Book</span>
+        <p>Video Book</p>
         </div>
         <div className='box'>
         <img src={quizz} alt="Logo" />
-        <span>Quizz</span>
+        <p>Quizz</p>
         </div>
       </div>
     </div>

@@ -1,9 +1,10 @@
 import React from "react";
+import Videobook from "../component/videobook";
 
 function Vedio(){
     return(
 
-        <h1>This is video book page</h1>
+       <Videobook/>
     )
     
 }

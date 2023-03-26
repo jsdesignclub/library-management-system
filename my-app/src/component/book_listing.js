@@ -1,27 +1,32 @@
 import React from 'react'
 import '../style/Book_listing.css'
-import book from "../image/3.JPG"
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Routes
+  } from "react-router-dom";
 function Book_listing() {
 
         const book =[
             {   
                 ISBN:'214578',
-                Image:"../image/Student.png",
+                Image:"../image/mybook.jpg",
                 BookName:'Reach dad and poor dad',
                 Price:'1250'
             }
             ,
             {   
                 ISBN:'214456',
-                Image:'../image/3.JPG',
+                Image:'../image/mybook.jpg',
                 BookName:'Happla',
                 Price:'1250'
             }
             ,
             {   
                 ISBN:'214456',
-                Image:'../image/3.JPG',
-                BookName:'Hannak llla',
+                Image:'../image/mybook.jpg',
+                BookName:'',
                 Price:'1250'
             }
 
@@ -37,7 +42,9 @@ function Book_listing() {
                 <img src={data.Image} alt='sasas'/>
                 <p>{data.BookName}</p>
                 <p>{data.Price}</p>
+                <p><Link to={'/view'}><div className="texts"><img src='../image/mybook.jpg'/></div></Link></p>
             </li>
+           
         ))}
     </ul>
 
