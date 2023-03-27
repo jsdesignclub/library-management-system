@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://jsdesignclub.github.io/library-management-system",
+  "homepage": "https://jsdesignclub.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/jsdesignclub/jsdesignclub.github.io.git"
   },
   "eslintConfig": {
     "extends": [
