@@ -2,11 +2,12 @@ import React from 'react'
 import fb from "../image/facebook.png"
 import Ins from "../image/instro.png"
 import "../style/footer.css"
+import logo from '../image/logo.png'
 function Footer() {
   return (
     <div className='footer'>
 
-        <div className='logo'><span>Logo</span></div>
+        <div className='logo'><img src={logo} /> </div>
         <div className='submenu'>
                 <ul>
                     <li>Home</li>

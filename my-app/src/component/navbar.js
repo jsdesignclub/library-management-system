@@ -6,12 +6,13 @@ import {
     Routes
   } from "react-router-dom";
 import "../style/Navbar.css";
+import logo from '../image/logo.png'
   function Navbar(){
     
     return(
 
         <div className="navbar text-3xl text-red-600 background-color: rgb(100 116 139)">
-          <div className="logo">LOGO</div>
+          <div className="logo"><img src={logo} /></div>
         <ul>
               <li><Link to={'/'}><div className="texts">Home</div></Link></li>
               <li><Link to={'/Book'}><div className="texts">Books</div> </Link></li>

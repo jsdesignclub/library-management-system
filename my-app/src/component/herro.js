@@ -1,8 +1,11 @@
 import React from 'react'
-
+import { useMediaQuery } from 'react-responsive'
 function Herro() {
+
+ 
   return (
-    
+   
+
     <div className="herro">
       <h1>Tanzania institute <br></br> of education</h1>
       <p>TIE is a collection of educational, informational, 
