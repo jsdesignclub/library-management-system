@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://jsdesignclub.github.io/library-management-system",
+  "homepage": "https://jsdesignclub.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
