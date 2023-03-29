@@ -1,4 +1,4 @@
-import { KeyboardBackspace } from "@material-ui/icons";
+
 import React from "react";
 import {
     BrowserRouter as Router,
@@ -13,12 +13,14 @@ import Herro from "../component/herro";
 import MostPopularBooks from "../component/mostPopularBooks";
 import OurAudioBooks from "../component/ourAudioBooks";
 import OurVideoBooks from "../component/ourVideoBooks";
+import Slider from "../component/slider";
 import "../style/Home.css";
 function Home(){
     return(
         <div>
       <Herro />
      <Chatagory />
+      <Slider/>
      <MostPopularBooks/>
      <Bannersection/>
      <OurAudioBooks/>

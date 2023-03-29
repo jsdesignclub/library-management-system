@@ -1,3 +1,5 @@
+
+import Container from 'react-bootstrap/Container';
 import React from "react";
 import {
     BrowserRouter as Router,
@@ -7,29 +9,38 @@ import {
   } from "react-router-dom";
 import "../style/Navbar.css";
 import logo from '../image/logo.png'
-  function Navbar(){
-    
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+  function Navbars(){
+    const bg='background-color: #e3f2fd;'
     return(
+<div>
+        
+        <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
+      <Container>
+        <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href='/book'>Book</Nav.Link>
+            <Nav.Link href="/video">Video</Nav.Link>
+            <Nav.Link href='/audio'>Audio</Nav.Link>
+            <Nav.Link href='/quize'>Quizzes & Exercise</Nav.Link>
+            <Nav.Link href='/Contact'>Contact Us</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets">Create Account</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes">
+            | Sign in
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
-        <div className="navbar text-3xl text-red-600 background-color: rgb(100 116 139)">
-          <div className="logo"><img src={logo} /></div>
-        <ul>
-              <li><Link to={'/'}><div className="texts">Home</div></Link></li>
-              <li><Link to={'/Book'}><div className="texts">Books</div> </Link></li>
-              <li><Link to={'/video'}><div className="texts">Videos</div> </Link></li>
-              <li><Link to={'/audio'}><div className="texts">Audios</div> </Link></li>
-              <li><Link to={'/quizz'}><div className="texts">Quizzes & Exercise</div> </Link></li>
-              <li><Link to={'/Contact'}><div className="texts">Contact Us</div></Link></li>
-            </ul>
-              <ul className="log">
-                <li>Create Account </li>
-                <li>| Sign in </li>
-              </ul>
-
-        </div>
-      
-
-
+</div>
     );
   }
-  export default Navbar;
+  export default Navbars;

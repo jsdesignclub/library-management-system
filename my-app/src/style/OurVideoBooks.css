@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     
 }
 
@@ -18,7 +19,18 @@
     border-radius: 50px;
     background-color: #ED3A3A;
     font-weight: bold;
+    color: aliceblue;
+    border: none;
+    margin-top: 50px;
 }
 .videobook img{
     width: 80%;
 }
+.videobook h1{
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .videobook img{
+        width: 100%;
+    }
+   }

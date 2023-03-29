@@ -10,6 +10,10 @@
 .logo{
     flex: 1;
     align-items: center;
+    width: 200px;
+}
+.logo img{
+    width: 200px;
 }
 .submenu{
     flex: 2;
@@ -34,4 +38,11 @@ li{
 img{
     padding-left: 20px;
 }
-
+@media only screen and (max-width: 600px) {
+    .submenu{
+        display: none;
+    }
+    .footer{
+        height: 200px;
+    }
+   }

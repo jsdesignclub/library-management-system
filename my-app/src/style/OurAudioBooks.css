@@ -1,4 +1,5 @@
 .audioBook{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +12,11 @@
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
+   
+}
+.audioBook h1{
+    font-weight: bold;
+    color: black;
 }
 .audioBook button{
     height: 50px;
@@ -18,7 +24,20 @@
     border-radius: 50px;
     background-color: #ED3A3A;
     font-weight: bold;
+    border: none;
+    margin-top: 50px;
+    color: aliceblue;
+    transition: 1s;
 }
 .audioBook img{
     width: 80%;
 }
+
+.audioBook button:hover{
+    background-color: #690f0f;
+}
+@media only screen and (max-width: 600px) {
+    .audioBook img{
+        width: 100%;
+    }
+   }

@@ -8,19 +8,19 @@ body{
     margin-top: 0px;
     background-color: rgb(214, 147, 64);
     background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url(../image/brazilian-young-woman-reading-books.jpg);
-    height: 600px;
+    height:100vh;
     background-position: right;
     background-repeat: repeat;
-   background-size: cover;
-   position: relative;
-   padding-left: 50px;
-   padding-top: 100px;
-   z-index: 1;
+    background-size: cover;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 300px;
+    z-index: 1;
 }
 .herro h1{
    
     font-size: 64px;
-    color: aliceblue;
+    color: rgb(248, 249, 250);
 }
 
 .herro p{
@@ -31,7 +31,7 @@ body{
     font-weight: 100;
 }
 
-button{
+.herro button{
     width: 200px;
     height: 50px;
     background-color: brown;
@@ -41,7 +41,44 @@ button{
     font-size: 16px;
     transition: 2s;
 }
-button:hover{
+.herro button:hover{
     background-color: rgb(95, 14, 14);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+    .herro{   
+    background-position:center;
+    padding-left: 30px;
+    padding-right:50px;
+    padding-top: 400px;
+       
+    }
+    .herro h1{
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .herro p{
+       text-align:justify;
+       font-size: 16px;
+        
+    }
+    
+    .herro button{
+        width: 200px;
+        height: 50px;
+        background-color: brown;
+        border: none;
+        border-radius: 20px;
+        color: wheat;
+        font-size: 16px;
+        transition: 2s;
+    }
+
+
+
+
+
+  }

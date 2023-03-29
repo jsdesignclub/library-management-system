@@ -12,7 +12,7 @@ and find your next favorite read. Our easy-to-use API allows you to browse,
 search, and purchase books directly from our database. Start exploring today
 </p>
    
-<button>Register and get your IP</button>
+<button className='ipBtn'>Register and get your IP</button>
 
 
 </div>

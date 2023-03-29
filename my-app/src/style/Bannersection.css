@@ -1,5 +1,5 @@
 .ss{
-    background-image: url('../image/Rectangle\ 5.png');
+    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url('../image/Rectangle\ 5.png');
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,5 +17,41 @@
     margin-bottom: 50px;
     text-align: justify;
     font-weight: lighter;
+    color: aliceblue;
    
 }
+.ipBtn{
+    width: 250px;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    border-radius: 40px;
+    color: aliceblue;
+    transition: 1s;
+}
+.ipBtn:hover{
+    background-color: rgb(119, 28, 28);
+}
+
+@media only screen and (max-width: 600px) {
+    .ss {
+      background-position:right;     
+       padding: 20px;
+       padding-top: 200px;
+    }
+    .ss span{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .ss p{
+        width: auto;
+       
+        text-align: justify;
+        font-weight: lighter;
+       
+    }
+
+
+
+
+  }

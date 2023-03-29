@@ -11,15 +11,16 @@
 }
 .box{
     font-size: 20px;
+    height: 200px;
 }
 
 .box:nth-of-type(1){
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 100%;
     background-color: brown;
     justify-content: center;
-    height: 200px;
+   
    
     align-items: center;
     font-size: 30px;
@@ -28,11 +29,11 @@
 }
 .box:nth-of-type(2){
     display: flex;
-    width: 250px;
+    width: 100%;
     flex-direction: column;
     background-color: rgb(208, 214, 123);
     justify-content: center;
-    height: 200px;
+    
     align-items: center;
    
     line-height: 50px;
@@ -40,11 +41,11 @@
 }
 .box:nth-of-type(3){
     display: flex;
-    width: 250px;
+    width: 100%;
     flex-direction: column;
     background-color: brown;
     justify-content: center;
-    height: 200px;
+   
    
     align-items: center;
    
@@ -53,11 +54,11 @@
 }
 .box:nth-of-type(4){
     display: flex;
-    width: 250px;
+    width: 100%;
     flex-direction: column;
     background-color: rgb(208, 214, 123);
     justify-content: center;
-    height: 200px;
+   
    
     align-items: center;
    
@@ -66,9 +67,28 @@
 }
 .box img{
    
-   height: 70px;
+   height: 50px;
 }
 
 .box p{
     font-size: 30px;
 }
+
+.cat{
+    background-color: blueviolet;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .box p{
+    font-size: 14px;
+   }
+   .box{
+    height: 100px;
+   }
+   .box img{
+   
+    height: 30px;
+ }
+  }

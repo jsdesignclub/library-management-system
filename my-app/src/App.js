@@ -11,7 +11,7 @@ import Home from './pages/Home';
 import navbar from './component/navbar';
 import book from './pages/book';
 import Book from './pages/book';
-import Navbar from './component/navbar';
+import Navbars from './component/navbar';
 import Vedio from './pages/vidio';
 import Quizz from './pages/quizz';
 import Audio from './pages/audio';
@@ -21,7 +21,7 @@ function App() {
   return (
      
     <Router> 
-      <Navbar/>
+      <Navbars/>
       
       <Routes>
         
@@ -35,7 +35,7 @@ function App() {
       </Routes>
 
       <Footer/>
-      <h1>jayasena</h1>
+    
     </Router>
 
         

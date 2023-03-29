@@ -4,7 +4,7 @@ import "../style/OurAudioBooks.css"
 function OurAudioBooks() {
   return (
     <div className='audioBook'>
-        <span>Our Audio Books </span>
+        <h1>Our Audio Books </h1>
         <img src={audioBook} alt="audio" />
         <button>More books</button>
     </div>

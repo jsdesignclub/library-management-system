@@ -4,7 +4,7 @@ import "../style/OurVideoBooks.css"
 function OurVideoBooks() {
   return (
     <div className='videobook'>
-       <span>Our Video Books</span>
+       <h1>Our Video Books</h1>
         <img src={video} alt="audio" />
         <button>More books</button>
         
