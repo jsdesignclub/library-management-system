@@ -5,9 +5,8 @@ function Quizzbooks() {
   return (
     <div className='quizzbook'>
         <div className='quizhed'>
-            <span>Quizzes </span>
-            <span>& Exercise
- </span>
+            <h1>Quizzes </h1>
+            <h1>& Exercisefff</h1>
         </div>
 
 

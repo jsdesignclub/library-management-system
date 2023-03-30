@@ -23,12 +23,47 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href='/book'>Book</Nav.Link>
-            <Nav.Link href="/video">Video</Nav.Link>
-            <Nav.Link href='/audio'>Audio</Nav.Link>
-            <Nav.Link href='/quize'>Quizzes & Exercise</Nav.Link>
-            <Nav.Link href='/Contact'>Contact Us</Nav.Link>
+          <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/book">
+                Book
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/video">
+                Video
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/audio">
+                Audio
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/quizz">
+              Quizzes & Exercise
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/Contact">
+              Contact Us
+              </Link>
+            </Nav.Link>
+
+            
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Create Account</Nav.Link>

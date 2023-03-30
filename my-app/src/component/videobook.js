@@ -4,9 +4,9 @@ function Videobook() {
   return (
         <div className='videobook'>
             <div className='videoheader'>
-                <span>You can read now</span>
-                <span>Our video book</span>
-                <span></span>
+                <h1>You can read now</h1>
+                <h1>Our video book</h1>
+               
             </div>
         </div>
   )

@@ -1,16 +1,26 @@
 
 
-
 .quizhed{
     background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 43.69%, rgba(2, 0, 0, 0) 93.75%), url('../image/quizz.jpg');
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+   background-position: bottom;
     width: 100%;
     height: 400px;
     padding: 50px 100px 50px 100px;
     box-sizing: border-box;
     background-position: top;
     background-size: cover;
-    background-position: bottom;
+    
 }
+.quizhed h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .quizhed{
+        padding: 200px 10px 10px 10px;
+    }
+   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/Audiobook.css'
 function AudioBook() {
+  
   return (
     <div className='audioBooks'>
         <div className='audio_hed'>
@@ -11,7 +12,7 @@ function AudioBook() {
       
       </div>
         </div>
-        <div className='audiocontent'>
+        <div className=''>
 
         </div>
 

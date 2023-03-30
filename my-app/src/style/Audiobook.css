@@ -19,25 +19,30 @@
     display: flex;
     flex-direction: column;
 }
-.tilte h1{
+.audioBooks h1{
     font-size: 40px;
-    color: aliceblue;
-    line-height: 5px;
-} 
+}
 .audioBooks h1:nth-of-type(1){
-    font-size:40px;
+    
     color: aliceblue;
     font-weight: bold;
     line-height: normal;
 }
 .audioBooks h1:nth-of-type(2){
-    font-size: 40px;
+    
     color: aliceblue;
     font-weight: bold;
 }
 
 .audioBooks h1:nth-of-type(3){
-    font-size: 70px;
+   
     color: #ED3A3A;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .audio_hed{
+        background-position: left;
+        padding: 150px 10px 10px 10px;
+    }
+   }

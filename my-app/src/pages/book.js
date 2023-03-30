@@ -11,9 +11,9 @@ function Book() {
     <div>
 
       <div className='bookpage'>
-      <span>Now you can</span>
-      <span>read millions</span>
-      <span>Book </span>
+      <h1>Now you can</h1>
+      <h1>read millions</h1>
+      <h1>Book </h1>
       
       </div>
 
