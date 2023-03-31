@@ -88,7 +88,7 @@ import Form from 'react-bootstrap/Form';
             </Button>
             <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Loging Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
 
