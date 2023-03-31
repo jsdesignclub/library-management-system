@@ -14,19 +14,19 @@ function Chatagory() {
 
       <Container>
         <Row className='cat'>
-        <Col  className='box'>
+        <Col className='box'>
         <img src={Book} alt="Logo" />
         <p>Book</p>
         </Col>
         <Col className='box'>
         <img src={audio} alt="Logo" />
-        <p>Audio Book</p>
+        <p>Audio </p>
         
         </Col>
         <Col className='box'>
           
         <img src={video} alt="Logo" />
-        <p>Video Book</p>
+        <p>Video </p>
         </Col>
         <Col className='box'>
           

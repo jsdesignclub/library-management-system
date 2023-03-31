@@ -17,6 +17,7 @@ import Quizz from './pages/quizz';
 import Audio from './pages/audio';
 import Footer from './component/footer';
 import Viewitem from './component/viewitem';
+import CreateAccount from './pages/CreateAccount';
 function App() {
   return (
      
@@ -32,6 +33,7 @@ function App() {
       <Route path='/quizz'  element={<Quizz/>} />
       <Route path='/Contact'  element={<Contact/>} />
       <Route path='/view'  element={<Viewitem/>} />
+      <Route path='/register'  element={<CreateAccount/>} />
       </Routes>
 
       <Footer/>

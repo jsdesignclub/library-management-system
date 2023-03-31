@@ -81,6 +81,17 @@
 
 
 @media only screen and (max-width: 600px) {
+    .chatagory{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-position: left;
+       
+       
+    }
+
+
+
+
    .box p{
     font-size: 14px;
    }

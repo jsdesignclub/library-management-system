@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/Book_listing.css'
+import book1 from '../image/mybook.jpg'
 import {
     BrowserRouter as Router,
     Route,
@@ -39,10 +40,10 @@ function Book_listing() {
      <ul>
         {book.map((data)=>(
             <li key={data.ISBN}>
-                <img src={data.Image} alt='sasas'/>
-                <p>{data.BookName}</p>
-                <p>{data.Price}</p>
-                <p><Link to={'/view'}><div className="texts"><img src='../image/mybook.jpg'/></div></Link></p>
+                <div> <img src={book1} alt=''/> </div>
+               
+                
+                <p><Link to={'/view'}>view Book</Link></p>
             </li>
            
         ))}

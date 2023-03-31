@@ -1,9 +1,9 @@
 .ss{
     background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url('../image/Rectangle\ 5.png');
-    height: 500px;
+    height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    
     padding: 100px;
     margin-top: 50px;
 }
@@ -11,6 +11,7 @@
 .ss span{
     font-size: 50px;
     font-weight: bold;
+    color: aliceblue;
 }
 .ss p{
     width: 400px;
@@ -23,7 +24,7 @@
 .ipBtn{
     width: 250px;
     height: 50px;
-    background-color: brown;
+    background-color: rgb(228, 27, 27);
     border: none;
     border-radius: 40px;
     color: aliceblue;
