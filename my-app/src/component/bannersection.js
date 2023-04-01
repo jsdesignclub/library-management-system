@@ -4,8 +4,8 @@ import "../style/Bannersection.css"
 function Bannersection() {
   return (
     <div className='ss'>
-<span>Welcome to our</span><br></br>
-<span>API-based bookstore</span>
+<span>WELCOME TO OUR</span><br></br>
+<span>DIGITAL LIBRARY TZ830</span>
 <p>
 Discover a wide selection of books in various categories 
 and find your next favorite read. Our easy-to-use API allows you to browse, 

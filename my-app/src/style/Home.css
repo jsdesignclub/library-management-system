@@ -5,7 +5,7 @@ body{
     
 }
 .herro{
-    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url(../image/lib.png);
+    background-image:linear-gradient(96.45deg, rgba(2, 0, 0, 0.71) 54.48%, rgba(2, 0, 0, 0) 116.7%), url(../image/libbg.jpg);
     height:100vh;
     background-position: right;
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@ body{
     font-size: 20px;
     color: antiquewhite;
     font-weight: 100;
+    text-align: justify;
 }
 
 .herro button{

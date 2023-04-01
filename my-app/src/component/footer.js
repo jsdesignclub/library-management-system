@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='footer'>
 
-        <div className='logo'><img src={logo} width='200px'/> </div>
+        <div className='logo'><img src={logo} width='150px'/> </div>
         <div className='submenu'>
                 <ul>
                     <li>Home</li>
