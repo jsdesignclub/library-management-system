@@ -18,3 +18,20 @@
     color: black;
     font-size: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .container1{
+       
+        flex-direction: column;
+    }
+    .leftside{
+        width: 100%;
+        padding: 50px;
+    }
+    .rightside{
+        width: 100%;
+        padding: 100px 20PX 20PX 20PX;
+    }
+    .leftside img{
+        width: 100%;
+    }
+  }

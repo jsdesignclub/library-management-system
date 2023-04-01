@@ -12,11 +12,11 @@ function MostPopularBooks() {
 
 <Container className='MostPopularBooks'>
 <Row>
-  <Col md-12>
+  <Col>
   
    <h1>Most Popular Books</h1>
   <img src={book2} alt="bookimage" />
-  <div className='ddd'>  <button className='btn'>Read more</button></div>
+
  
   </Col>
 </Row>

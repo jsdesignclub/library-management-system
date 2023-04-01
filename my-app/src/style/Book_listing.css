@@ -1,3 +1,9 @@
+.booklisting{
+    margin-top: 100px;
+}
+
+
+
 .booklisting p{
     color: black;
 }
@@ -10,10 +16,17 @@
 
 .booklisting li{
     width: 200px;
-    border:solid 1px black;
-    margin: 20px;
+   height: 200px;
+    
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.booklisting img{
+    width: 100%;
+    align-items: center;
 }
