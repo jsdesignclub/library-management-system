@@ -8,7 +8,7 @@ import {
     Routes
   } from "react-router-dom";
 import "../style/Navbar.css";
-import logo from '../image/logo.png'
+import logo from '../image/logo-8.png'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -19,7 +19,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
         
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
       <Container>
-        <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} width='150px' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
